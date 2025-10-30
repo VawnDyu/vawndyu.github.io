@@ -23,6 +23,14 @@ const projectsData = [
       githubLink: "https://github.com/VawnDyu/Barangay-Clearance-System",
     },
     {
+        title: "Pet Care Simulator",
+        description: "A cute virtual pet simulator — feed, play, and rest with your digital companion!",
+        image: ProjectsImg.PetCareSimImg,
+        techStack: ["React", "Vite"],
+        liveLink: "https://vawndyu.github.io/Pet-Care-Simulator",
+        githubLink: "https://github.com/VawnDyu/Pet-Care-Simulator",
+    },
+    {
         title: "Visual Novel Game",
         description: "A story-driven visual novel. Explore choices, characters, and hidden secrets.",
         image: ProjectsImg.DatingSimImg,

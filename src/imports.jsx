@@ -20,6 +20,7 @@ import ExpressJSImg from './assets/expressjS.svg';
 import FoodOrderingSystemImg from './images/FoodOrderingSystem.png';
 import Capstone2Img from './images/capstone.png';
 import Capstone1Img from './images/bcqsystem.png';
+import PetCareSimImg from './images/petcaresimulator.png';
 import DatingSimImg from './images/datingsimulatorgame.png';
 import GTPImg from './images/gtp2.png';
 import DoodleImg from './images/portfolio1.png';
@@ -31,6 +32,7 @@ import MyPortfolioImg from './images/vonnedewportfolio.png';
 export const ProjectsImg = {
   Capstone2Img,
   Capstone1Img,
+  PetCareSimImg,
   DatingSimImg,
   GTPImg,
   DoodleImg,
