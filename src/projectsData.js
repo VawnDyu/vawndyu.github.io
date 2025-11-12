@@ -23,6 +23,14 @@ const projectsData = [
       githubLink: "https://github.com/VawnDyu/Barangay-Clearance-System",
     },
     {
+        title: "Moon Chess",
+        description: "A Space-themed Tic Tac Toe with a disappearing twist.",
+        image: ProjectsImg.MoonChessImg,
+        techStack: ["React", "Vite", "PixiJS"],
+        liveLink: "https://vawndyu.github.io/Moon-Chess",
+        githubLink: "https://github.com/VawnDyu/Moon-Chess",
+    },
+    {
         title: "Pet Care Simulator",
         description: "A cute virtual pet simulator — feed, play, and rest with your digital companion!",
         image: ProjectsImg.PetCareSimImg,
