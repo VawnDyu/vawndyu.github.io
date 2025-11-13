@@ -1,8 +1,10 @@
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import Projects from './projects';
-import Home from './home';
-import Navbar from './navbar';
-import Footer from './footer';
+import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
+import ScrollToTop from './components/common/ScrollToTop';
+import Home from './pages/Home';
+import Projects from './pages/Projects';
+import './globals.css';
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
       </Routes>
       <Footer />
+      <ScrollToTop />
     </Router>
   );
 }

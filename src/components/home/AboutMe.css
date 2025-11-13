@@ -1,0 +1,90 @@
+.about-minimal {
+  background: var(--textColor);
+  color: var(--mainColor);
+  padding: 100px 40px;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Section Header */
+.section-header {
+  margin-bottom: 48px;
+}
+
+.section-label {
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.6;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.section-title {
+  font-size: clamp(32px, 5vw, 48px);
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin: 0;
+}
+
+/* Bio Content */
+.bio-content {
+  font-size: clamp(16px, 2vw, 18px);
+  line-height: 1.8;
+  opacity: 0.85;
+}
+
+.bio-content p {
+  margin-bottom: 24px;
+}
+
+.bio-content p:last-child {
+  margin-bottom: 0;
+}
+
+/* Tech Section */
+.tech-section {
+  margin-top: 80px;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .about-minimal {
+    padding: 60px 24px;
+  }
+
+  .section-header {
+    margin-bottom: 32px;
+  }
+
+  .bio-content {
+    font-size: 16px;
+  }
+
+  .bio-content p {
+    margin-bottom: 20px;
+  }
+
+  .tech-section {
+    margin-top: 60px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .about-minimal {
+    padding: 40px 16px;
+  }
+
+  .section-label {
+    font-size: 12px;
+  }
+
+  .tech-section {
+    margin-top: 50px;
+  }
+}

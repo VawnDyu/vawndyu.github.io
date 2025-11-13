@@ -1,4 +1,5 @@
-import ProfilePic from './assets/profile-img.jpeg';
+import ProfilePic from './assets/heroimg.png';
+
 import GithubImg from './assets/github-img.svg';
 import HTMLImg from './assets/HTML5.png';
 import CSSImg from './assets/CSS3.png';

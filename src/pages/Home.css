@@ -1,0 +1,4 @@
+.home-page {
+  background-color: var(--mainColor);
+  min-height: 100vh;
+}

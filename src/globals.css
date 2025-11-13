@@ -1,21 +1,54 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+/* Reset and base styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  transition: all 0.2s ease;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
 body {
   display: block;
-  place-items: initial;
+  min-height: 100vh;
 }
 
+/* CSS Variables */
 :root {
   --mainColor: #e4e4e4;
   --navColor: #ffffff;
   --textColor: #303030;
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 48px;
+
+  /* Typography */
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.5rem;
+  --font-size-xl: 2rem;
+  --font-size-2xl: 3rem;
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
 }
 
 .dark-theme {
@@ -24,15 +57,51 @@ body {
   --textColor: #dedede;
 }
 
+/* Typography */
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 
-h2 {
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
+  font-weight: 500;
+}
+
+p {
+  margin: 0;
+}
+
+/* Remove default button styles */
+button {
+  font-family: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* Image defaults */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Root container */
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Reduce motion for users who prefer it (accessibility) */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }

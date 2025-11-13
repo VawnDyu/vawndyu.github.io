@@ -1,4 +1,4 @@
-import { ProjectsImg } from "./imports.jsx";
+import { ProjectsImg } from "../imports.jsx";
 
 const projectsData = [
     {
@@ -26,7 +26,7 @@ const projectsData = [
         title: "Moon Chess",
         description: "A Space-themed Tic Tac Toe with a disappearing twist.",
         image: ProjectsImg.MoonChessImg,
-        techStack: ["React", "Vite", "PixiJS"],
+        techStack: ["React", "CSS", "Vite", "PixiJS"],
         liveLink: "https://vawndyu.github.io/Moon-Chess",
         githubLink: "https://github.com/VawnDyu/Moon-Chess",
     },
@@ -34,7 +34,7 @@ const projectsData = [
         title: "Pet Care Simulator",
         description: "A cute virtual pet simulator — feed, play, and rest with your digital companion!",
         image: ProjectsImg.PetCareSimImg,
-        techStack: ["React", "Vite"],
+        techStack: ["React", "CSS", "Javascript", "Vite"],
         liveLink: "https://vawndyu.github.io/Pet-Care-Simulator",
         githubLink: "https://github.com/VawnDyu/Pet-Care-Simulator",
     },
@@ -49,7 +49,7 @@ const projectsData = [
         title: "Guess the Picture",
         description: "Guess the Picture is a kid interactive game with timer and scoreboard",
         image: ProjectsImg.GTPImg,
-        techStack: ["React", "CSS", "Javascript"],
+        techStack: ["React", "CSS", "Javascript", "Vite"],
         liveLink: "https://vawndyu.github.io/Guess-the-picture",
         githubLink: "https://github.com/VawnDyu/Guess-the-picture",
     },
@@ -57,7 +57,7 @@ const projectsData = [
         title: "Doodle's Portfolio",
         description: "Doodle's Commissioned Portfolio for Social Media Assets",
         image: ProjectsImg.DoodleImg,
-        techStack: ["React", "CSS", "Javascript"],
+        techStack: ["React", "CSS", "Javascript", "Vite"],
         liveLink: "https://vawndyu.github.io/Doodles-Portfolio",
         githubLink: "https://github.com/VawnDyu/Doodles-Portfolio",
     },
@@ -65,7 +65,7 @@ const projectsData = [
         title: "Poke-Search",
         description: "A PokeDex that you can search any pokemon you want.",
         image: ProjectsImg.PokeSearchImg,
-        techStack: ["React", "CSS", "Javascript", "PokeAPI"],
+        techStack: ["React", "Vite", "PokeAPI"],
         liveLink: "https://vawndyu.github.io/PokeSearch",
         githubLink: "https://github.com/VawnDyu/PokeSearch",
     },

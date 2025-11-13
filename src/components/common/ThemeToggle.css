@@ -1,0 +1,55 @@
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  border-radius: 6px;
+  opacity: 0.6;
+}
+
+.theme-toggle:hover {
+  opacity: 1;
+  background: var(--mainColor);
+}
+
+.theme-toggle .material-icons {
+  color: var(--textColor);
+  font-size: 22px;
+  transition: transform 0.3s ease;
+}
+
+.theme-toggle:hover .material-icons {
+  transform: rotate(20deg);
+}
+
+/* Focus state for accessibility */
+.theme-toggle:focus {
+  outline: 2px solid var(--textColor);
+  outline-offset: 2px;
+  opacity: 1;
+}
+
+/* Active state */
+.theme-toggle:active .material-icons {
+  transform: scale(0.95) rotate(20deg);
+}
+
+@media (max-width: 768px) {
+  .theme-toggle .material-icons {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .theme-toggle {
+    padding: 4px;
+  }
+
+  .theme-toggle .material-icons {
+    font-size: 18px;
+  }
+}
