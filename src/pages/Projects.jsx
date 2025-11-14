@@ -19,10 +19,10 @@ function Projects() {
           );
         }
         if (filter === 'Games') {
-          return ['Moon Chess', 'Pet Care Simulator', 'Visual Novel Game', 'Gacha'].includes(project.title);
+          return ['Moon Chess', 'Pet Care Simulator', 'Visual Novel Game', 'Gacha', 'Guess the Picture'].includes(project.title);
         }
         if (filter === 'Tools') {
-          return ['Guess the Picture', 'Poke-Search'].includes(project.title);
+          return ['PokéSearch', 'Weather App'].includes(project.title);
         }
         return true;
       });
