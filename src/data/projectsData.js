@@ -23,6 +23,14 @@ const projectsData = [
         githubLink: "https://github.com/VawnDyu/Barangay-Clearance-System",
     },
     {
+        title: "Cat Facts App",
+        description: "A minimalist web application to discover, save, and share interesting cat facts.",
+        image: ProjectsImg.CatFactsAppImg,
+        techStack: ["React", "CSS", "Typescript", "Vite", "Cat Facts API"],
+        liveLink: "https://vawndyu.github.io/cat-facts-app",
+        githubLink: "https://github.com/VawnDyu/cat-facts-app",
+    },
+    {
         title: "Weather App",
         description: "A minimalist weather app providing real-time weather data for any city.",
         image: ProjectsImg.WeatherAppImg,

@@ -21,6 +21,7 @@ import ExpressJSImg from './assets/expressjS.svg';
 import FoodOrderingSystemImg from './images/FoodOrderingSystem.png';
 import Capstone2Img from './images/capstone.png';
 import Capstone1Img from './images/bcqsystem.png';
+import CatFactsAppImg from './images/catfactsapp.png';
 import WeatherAppImg from './images/weatherapp.png';
 import MoonChessImg from './images/moonchess.png';
 import PetCareSimImg from './images/petcaresimulator.png';
@@ -35,6 +36,7 @@ import MyPortfolioImg from './images/vonnedewportfolio.png';
 export const ProjectsImg = {
   Capstone2Img,
   Capstone1Img,
+  CatFactsAppImg,
   WeatherAppImg,
   MoonChessImg,
   PetCareSimImg,
