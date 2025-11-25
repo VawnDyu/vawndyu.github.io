@@ -15,14 +15,14 @@ function Projects() {
     : projectsData.filter(project => {
         if (filter === 'Web Apps') {
           return project.techStack.some(tech =>
-            ['MERN', 'React', 'PHP', 'Javascript'].includes(tech)
+            ['MERN', 'React', 'PHP', 'Javascript', 'Typescript', 'Vite'].includes(tech)
           );
         }
         if (filter === 'Games') {
           return ['Moon Chess', 'Pet Care Simulator', 'Visual Novel Game', 'Gacha Simulator', 'Guess the Picture'].includes(project.title);
         }
         if (filter === 'Tools') {
-          return ['PokéSearch', 'Weather App', 'Cat Facts App'].includes(project.title);
+          return ['PokéSearch', 'Weather App', 'Cat Facts App', 'Expense Tracker'].includes(project.title);
         }
         return true;
       });

@@ -23,6 +23,14 @@ const projectsData = [
         githubLink: "https://github.com/VawnDyu/Barangay-Clearance-System",
     },
     {
+        title: "Expense Tracker",
+        description: "A modern, feature-rich expense tracking application.",
+        image: ProjectsImg.ExpenseTrackerImg,
+        techStack: ["React", "Tailwind CSS", "Typescript", "Vite", "Framer Motion", "Recharts"],
+        liveLink: "https://vawndyu.github.io/expense-tracker",
+        githubLink: "https://github.com/VawnDyu/expense-tracker",
+    },
+    {
         title: "Cat Facts App",
         description: "A minimalist web application to discover, save, and share interesting cat facts.",
         image: ProjectsImg.CatFactsAppImg,
