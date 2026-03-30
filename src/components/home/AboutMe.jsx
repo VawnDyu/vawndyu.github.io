@@ -35,6 +35,24 @@ function AboutMe() {
           </p>
         </div>
 
+        {/* Section Header */}
+        <div className="CT-section">
+          <div className="section-header">
+            <span className="section-label">Certifications / Training</span>
+            <h2 className="section-title">AWS AI Practitioner Challenge (Udacity)</h2>
+          </div>
+
+          <div className='bio-content'>
+            <p>
+              Completed the course covering AI/ML fundamentals, generative AI, and AWS AI/ML services (SageMaker, Lambda, S3).
+            </p>
+
+            <p>
+              <a className="view-certificate" href="https://www.udacity.com/certificate/e/ef97f110-2bcb-11f1-bdf1-8bccdff46573">View Certificate</a>
+            </p>
+          </div>
+        </div>
+
         {/* Tech Stack */}
         <div className="tech-section">
           <div className="section-header">

@@ -46,6 +46,17 @@
   margin-bottom: 0;
 }
 
+/* Certifications/Trainings Section */
+.CT-section {
+  margin-top: 80px;
+}
+
+.view-certificate:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+
 /* Tech Section */
 .tech-section {
   margin-top: 80px;

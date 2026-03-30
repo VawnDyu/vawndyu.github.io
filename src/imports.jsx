@@ -18,6 +18,7 @@ import MongoDBImg from './assets/MongoDB.png';
 import NodeJSImg from './assets/nodejs.svg';
 import ExpressJSImg from './assets/expressjS.svg';
 
+import GenshinShowcaseImg from './images/genshinshowcase.png';
 import FoodOrderingSystemImg from './images/FoodOrderingSystem.png';
 import Capstone2Img from './images/capstone.png';
 import Capstone1Img from './images/bcqsystem.png';
@@ -48,7 +49,8 @@ export const ProjectsImg = {
   PokeSearchImg,
   GachaImg,
   MyPortfolioImg,
-  FoodOrderingSystemImg
+  FoodOrderingSystemImg,
+  GenshinShowcaseImg,
 };
 
 export const AssetsImg = {

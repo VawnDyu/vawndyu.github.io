@@ -23,6 +23,14 @@ const projectsData = [
         githubLink: "https://github.com/VawnDyu/Barangay-Clearance-System",
     },
     {
+        title: "Genshin Showcase",
+        description: "A fan-made interactive character showcase.",
+        image: ProjectsImg.GenshinShowcaseImg,
+        techStack: ["React", "Tailwind CSS", "Typescript", "Vite", "GSAP 3"],
+        liveLink: "https://vawndyu.github.io/genshin-showcase",
+        githubLink: "https://github.com/VawnDyu/genshin-showcase",
+    },
+    {
         title: "Expense Tracker",
         description: "A modern, feature-rich expense tracking application.",
         image: ProjectsImg.ExpenseTrackerImg,
