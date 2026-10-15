@@ -23,6 +23,13 @@ const projectsData = [
         githubLink: "https://github.com/VawnDyu/Barangay-Clearance-System",
     },
     {
+        title: "Vault",
+        description: "Offline password manager for Android and Windows with encrypted storage, 2FA codes, password health checks and phone-to-PC sync. Rust core, Flutter UI.",
+        image: ProjectsImg.VaultImg,
+        techStack: ["Dart", "Rust", "Flutter", "Argon2id", "XChaCha20"],
+        githubLink: "https://github.com/VawnDyu/vault",
+    },
+    {
         title: "Genshin Showcase",
         description: "A fan-made interactive character showcase.",
         image: ProjectsImg.GenshinShowcaseImg,

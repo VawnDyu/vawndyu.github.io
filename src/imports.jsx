@@ -18,6 +18,7 @@ import MongoDBImg from './assets/MongoDB.png';
 import NodeJSImg from './assets/nodejs.svg';
 import ExpressJSImg from './assets/expressjS.svg';
 
+import VaultImg from './images/vault.png';
 import GenshinShowcaseImg from './images/genshinshowcase.png';
 import FoodOrderingSystemImg from './images/FoodOrderingSystem.png';
 import Capstone2Img from './images/capstone.png';
@@ -51,6 +52,7 @@ export const ProjectsImg = {
   MyPortfolioImg,
   FoodOrderingSystemImg,
   GenshinShowcaseImg,
+  VaultImg,
 };
 
 export const AssetsImg = {

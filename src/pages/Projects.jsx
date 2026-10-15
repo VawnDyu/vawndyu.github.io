@@ -7,7 +7,7 @@ function Projects() {
   const [filter, setFilter] = useState('All');
 
   // Get unique tech categories
-  const categories = ['All', 'Web Apps', 'Games', 'Tools'];
+  const categories = ['All', 'Web Apps', 'Apps', 'Games', 'Tools'];
 
   // Filter projects based on category
   const filteredProjects = filter === 'All'
@@ -18,11 +18,14 @@ function Projects() {
             ['MERN', 'React', 'PHP', 'Javascript', 'Typescript', 'Vite'].includes(tech)
           );
         }
+        if (filter === 'Apps') {
+          return ['Vault'].includes(project.title);
+        }
         if (filter === 'Games') {
           return ['Moon Chess', 'Pet Care Simulator', 'Visual Novel Game', 'Gacha Simulator', 'Guess the Picture'].includes(project.title);
         }
         if (filter === 'Tools') {
-          return ['PokéSearch', 'Weather App', 'Cat Facts App', 'Expense Tracker'].includes(project.title);
+          return ['PokéSearch', 'Weather App', 'Cat Facts App', 'Expense Tracker', 'Vault'].includes(project.title);
         }
         return true;
       });
